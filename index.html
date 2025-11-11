@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fizka kvizi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #222;
+    }
+
+    .question {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .question img {
+      max-width: 100%;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .answers {
+      margin-top: 10px;
+    }
+
+    .answers li {
+      padding: 5px 10px;
+      border-radius: 6px;
+    }
+
+    .correct {
+      background-color: #c8f7c5;
+      font-weight: bold;
+    }
+
+    .incorrect {
+      background-color: #fce3e3;
+      color: #444;
+    }
+
+    .topic {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    .keywords {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 8px;
+    }
+
+    details {
+      overflow: hidden;
+    }
+
+    details[open] {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #444;
+    }
+
+    summary:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Fizka vsa prasanja iz kvizov</h1>
+
+  <div class="topic">Fizika – Toplota in raztezanje</div>
+
+  <details class="question">
+    <summary><strong>1.</strong> Kos aluminija vpnemo v železen okvir, kakor kaže slika. Kako se spremeni sila?</summary>
+    <p>Kako se spremeni sila, s katero okvir stiska kos aluminija, ko se temperatura poveča? 
+      Temperaturni koeficient dolžinskega raztezka za aluminij je 2,3×10⁻⁵ K⁻¹, za železo pa 2,3×10⁻⁵ K⁻¹.
+    </p>
+
+    <img src="media/vpetje.PNG">
+
+    <ul class="answers">
+      <li class="incorrect">Sila se zmanjša.</li>
+      <li class="incorrect">Sila se zmanjša na nič.</li>
+      <li class="correct">Sila se poveča.</li>
+      <li class="incorrect">Sila se ne spremeni.</li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: toplota, temperaturni raztezek, železo, aluminij, sila
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>2.</strong> Delavec dviguje vedro z maso 8 kg. V 9,0 s ga vzdigne za 4,0 m. S kolikšno močjo opravlja delo?</summary>
+    <p>Delavec dviguje vedro z maso 8 kg. V 9,0 s ga vzdigne za 4,0 m. S kolikšno močjo opravlja delo?</p>
+
+    <ul class="answers">
+      <li class="incorrect">3,6 W</li>
+      <li class="incorrect">36 kW</li>
+      <li class="incorrect">0,36 W</li>
+      <li class="correct">36 W</li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: delo, 36W
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>3.</strong> Kolikšna je sprememba potencialne energije človeka z maso 50 kg, ki se povzpne za 22 m?</summary>
+    <p>Kolikšna je sprememba potencialne energije človeka z maso 50 kg, ki se povzpne za 22 m?</p>
+
+    <ul class="answers">
+      <li class="incorrect">11 J</li>
+      <li class="incorrect">1,1 kJ</li>
+      <li class="incorrect">0 J</li>
+      <li class="correct">11 kJ</li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: energija, potencialna energija, potencialna, 11kJ, sprememba
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>4.</strong> Plošča z luknjo je narejena iz aluminija (α<sub>Al</sub>=2,5⋅10⁻⁶K⁻¹), krogla pa iz jekla (α<sub>jeklo</sub>=1,2⋅10⁻⁶K⁻¹). Pri sobni temperaturi je notranji premer luknje nekoliko manjši od premera krogle. Kaj moramo storiti, da bo premer luknje v plošči enak premeru krogle?</summary>
+    <p>Plošča z luknjo je narejena iz aluminija (α<sub>Al</sub>=2,5⋅10⁻⁶K⁻¹), krogla pa iz jekla (α<sub>jeklo</sub>=1,2⋅10⁻⁶K⁻¹). Pri sobni temperaturi je notranji premer luknje nekoliko manjši od premera krogle. Kaj moramo storiti, da bo premer luknje v plošči enak premeru krogle?</p>
+
+    <img src="media/Slika7.jpg" alt="Slika7">
+
+    <ul class="answers">
+      <li class="incorrect">Ohladiti ploščo in kroglo na 0 °C.</li>
+      <li class="incorrect">Segreti kroglo.</li>
+      <li class="incorrect">Ohladiti ploščo.</li>
+      <li class="correct">Segreti ploščo.</li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: aluminij, jeklo, temperaturni raztezek, segrevanje, plošča, krogla
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>5.</strong> Z grelnikom dovajamo toploto vodi. Voda se segreje do vrelišča. Kaj se zgodi, če dovajamo toploto še naprej z enako močjo?</summary>
+    <p>Z grelnikom dovajamo toploto vodi. Voda se segreje do vrelišča. Kaj se zgodi, če dovajamo toploto še naprej z enako močjo?</p>
+
+    <ul class="answers">
+      <li class="incorrect">Voda ostane v nespremenjenem stanju in njena temperatura se ne spreminja.</li>
+      <li class="incorrect">Voda se začne spreminjati v paro in njena temperatura narašča.</li>
+      <li class="correct">Voda se začne spreminjati v paro in njena temperatura se ne spreminja.</li>
+      <li class="incorrect">Temperatura vode narašča nad temperaturo vrelišča.</li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: toplota, voda, para
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>7.</strong> V odprti cevki z obliko črke U sta voda in olje tako, kakor kaže slika. Oba kraka cevi sta odprta. Kaj velja za tlaka p<sub>1</sub> in p<sub>2</sub>?</summary>
+    <p>V odprti cevki z obliko črke U sta voda in olje tako, kakor kaže slika. Oba kraka cevi sta odprta. Kaj velja za tlaka p<sub>1</sub> in p<sub>2</sub>?</p>
+
+    <img src="media/u cevka.png" alt="U cevka">
+
+    <ul class="answers">
+      <li class="incorrect">p<sub>1</sub> &lt; p<sub>2</sub></li>
+      <li class="incorrect">p<sub>1</sub> &gt; p<sub>2</sub></li>
+      <li class="correct">p<sub>1</sub> = p<sub>2</sub></li>
+      <li class="incorrect">p<sub>1</sub> = ρ<sub>olje</sub> / ρ<sub>voda</sub> p<sub>2</sub></li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: tlak, cev
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>8.</strong> Navor sile z ročico zapišemo z izrazom:</summary>
+    <p>Navor sile z ročico zapišemo z izrazom:</p>
+
+    <ul class="answers">
+      <li class="incorrect">r/F</li>
+      <li class="incorrect">F/r</li>
+      <li class="correct">rF</li>
+      <li class="incorrect">F/r<sup>2</sup></li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: navor
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>9.</strong> Odprta steklenica, polna vode, stoji na ravni podlagi. Slika kaže obliko steklenice in lege štirih točk v steklenici, v katerih izmerimo tlak. Katera izjava je pravilna?</summary>
+    <p>Odprta steklenica, polna vode, stoji na ravni podlagi. Slika kaže obliko steklenice in lege štirih točk v steklenici, v katerih izmerimo tlak. Katera izjava je pravilna?</p>
+
+    <img src="media/hidrostatika1.png" alt="Hidrostatika steklenica">
+
+    <ul class="answers">
+      <li class="correct">p<sub>A</sub> = p<sub>B</sub></li>
+      <li class="incorrect">p<sub>D</sub> = 2p<sub>C</sub></li>
+      <li class="incorrect">p<sub>A</sub> = 0</li>
+      <li class="incorrect">p<sub>C</sub> = p<sub>B</sub></li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: tlak, steklenica
+    </div>
+  </details>
+
+  <details class="question">
+    <summary><strong>10.</strong> Homogena klada deloma leži na mizi. V katerem primeru je sila, s katero klado zadržujemo v mirovanju, najmanjša?</summary>
+    <p>Homogena klada deloma leži na mizi. V katerem primeru je sila, s katero klado zadržujemo v mirovanju, najmanjša?</p>
+
+    <img src="media/navor10.png" alt="Homogena klada na mizi">
+
+    <ul class="answers">
+      <li class="incorrect">D</li>
+      <li class="incorrect">A</li>
+      <li class="correct">C</li>
+      <li class="incorrect">B</li>
+    </ul>
+
+    <div class="keywords">
+      🔹 Ključne besede: homogena klada, sila, mirovanje, navor
+    </div>
+  </details>
+
+</body>
+</html>
 
