@@ -1,1 +1,1 @@
-https://binerosulnik.github.io/fizka-kviz
+https://binerosulnik.github.io/fizka-kviz.github.io/
